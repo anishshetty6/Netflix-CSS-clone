@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Montserrat:wght@800&family=Mooli&family=Phudu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Montserrat:wght@800&family=Mooli&family=Phudu&family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-image: url("bg1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Montserrat', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    z-index: 20;
+}
+
+.hero> :first-child {
+    font-size: 48px;
+    font-weight: bolder; 
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.btn{
+    padding:9px 13px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red {
+    background-color: red;
+    font-stretch: expanded;
+    padding: 0.75rem 1.5rem ;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.main input{
+    padding: 13px 50px ;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.3);
+}
+
+.btn-lang{
+    background-color: rgba(23,23,23,0.2);
+    color: white; 
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 9px 25px;
+}
+
+.hero-btns1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 20px;
+}
+
+.hero-btns2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.first{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width:50vw ;
+    color: white;
+}
+
+.secImg img{
+    width:32vw ;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first> div :nth-child(2){
+    font-size: 24px;
+}
+
+.faqbox{
+    display: flex;
+    background-color: grey;
+    padding:20px ;
+    color: black;
+    justify-content: space-between;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 24px;
+    max-width: 40vw;
+    margin: auto;
+}
+
+.faq h2{
+    text-align: center;
+}
